@@ -29,6 +29,12 @@ task :default do
   pull_request = JSON.load(response.body)
   state        = pull_request["mergeable_state"]
 
+  # Update the pull request
+  File.write(slug, 'update')
+  sh "git add #{slug}"
+  sh "git commit -m 'updated'"
+  sh "git push origin #{slug}"
+
   # Wait for merge commit
   puts "waiting for github, press CTRL-C to give up"
   while %w[checking unknown].include? state
