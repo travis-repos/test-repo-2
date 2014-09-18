@@ -2,9 +2,15 @@ git:
   strategy: tarball
 env:
   global:
-    - secure: "ffuF7pdPrYYFjcEJLgoXWD1Y6EuZ2jCzKmsI+j5cZl6fYNaPhkSmX3BGTz1X\nhkZs3S5qdiJxpFX3PaXKwhrmpjE0THXwyOgX8UTq56XzUWWWuuE/glm5Jwnh\nNHDboAi/ygMoDWK8xeod9/MOtO2ykTPMFfDFNmagzENfsHhNDqM="
+  - secure: |-
+      ffuF7pdPrYYFjcEJLgoXWD1Y6EuZ2jCzKmsI+j5cZl6fYNaPhkSmX3BGTz1X
+      hkZs3S5qdiJxpFX3PaXKwhrmpjE0THXwyOgX8UTq56XzUWWWuuE/glm5Jwnh
+      NHDboAi/ygMoDWK8xeod9/MOtO2ykTPMFfDFNmagzENfsHhNDqM=
 notifications:
   email: false
+  campfire:
+    rooms:
+      secure: PtvqBVRu1vHOsMm+bFDZae96xc2eCUrhUv+62ANHGqDsrEKfSdOnVzWVaW0B4hnZ+wFqgc6IHpLV4xnpLwT+nmQYGlU4O8p0/xiYT6TqzPjvlgug4sLh/WcTf4TFWkeq4BdMYR1MSAqezBNNxyWqjXEFWH7Ta/P091YJv1mIBMg=
 branches:
   only:
-    - master
+  - master
