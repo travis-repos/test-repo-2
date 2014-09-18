@@ -10,7 +10,7 @@ notifications:
   email: false
   campfire:
     rooms:
-      secure: PtvqBVRu1vHOsMm+bFDZae96xc2eCUrhUv+62ANHGqDsrEKfSdOnVzWVaW0B4hnZ+wFqgc6IHpLV4xnpLwT+nmQYGlU4O8p0/xiYT6TqzPjvlgug4sLh/WcTf4TFWkeq4BdMYR1MSAqezBNNxyWqjXEFWH7Ta/P091YJv1mIBMg=
+      secure: OZCCLDYA+GgdBuiydsG6H8r7mZHqyoU6/z3z/s1Y515arHYh3MezGgmyqgKKkABzvNcNrPQG3BeG09U1+2L+TTI6y8Ng/6bs4388nMbqJ6g7BZf0+dPu+t4knHMM8LBRO54pWFcEhKBVz1iRP1uGZAV8wOyCz3LOEGmkMM8HNCc=
 branches:
   only:
   - master
