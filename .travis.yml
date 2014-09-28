@@ -14,4 +14,4 @@ notifications:
 branches:
   only:
   - master
-before_script: "sleep 10"
+before_script: "sleep 120"
