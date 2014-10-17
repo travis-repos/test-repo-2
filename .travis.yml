@@ -1,5 +1,5 @@
-git:
-  strategy: tarball
+# git:
+#   strategy: tarball
 env:
   global:
   - secure: |-
@@ -15,3 +15,6 @@ branches:
   only:
   - master
 # before_script: "sleep 120"
+before_script:
+  - echo "one"
+  - echo "two"
