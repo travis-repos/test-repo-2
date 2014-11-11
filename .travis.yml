@@ -18,3 +18,4 @@ branches:
 before_script:
   - echo "one"
   - echo "two"
+script: true
